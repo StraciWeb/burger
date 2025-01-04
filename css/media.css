@@ -1,0 +1,176 @@
+@media (max-width:1150px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .menu {
+        margin-left: 24px;
+    }
+
+    .menu-item {
+        margin-right: 24px;
+    }
+
+    .main-image {
+        top: -123px;
+
+        max-width: 80%;
+        left: calc(100% - 522px);
+    }
+
+    .main-title {
+        font-size: 80px;
+        line-height: 90px;
+        margin-bottom: 24px;
+    }
+
+    .main-text {
+        margin-bottom: 24px;
+    }
+
+    .main-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .common-title {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .why {
+        padding-bottom: 50px;
+    }
+
+    .why-items {
+        gap: 50px;
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .products-items {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .products-item-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .products{
+        padding-bottom: 50px;
+    }
+
+    .order-image {
+        display: none;
+    }
+
+    .order-form {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:768px) {
+    .main-title {
+        font-size: 35px;
+        line-height: 62px;
+        margin-bottom: 0px;
+    }
+
+    .main-text{
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 350px;
+    }
+
+    .main-image {
+        top: 0%;
+        left: 35%;
+    }
+
+    .main-content {
+        padding-bottom: 100px;
+    }
+
+    .products-item-extra{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .button.product-button {
+        width: 140px;
+        height: 40px;
+    }
+
+    .products-item-image img {
+        max-width: fit-content;
+    }
+}
+
+@media (max-width:520px) {
+    .menu-item {
+        margin-right: 18px;
+    }
+
+    .menu-item a {
+        font-size: 12px;
+    }
+
+    .currency{
+        padding: 7px 0;
+        width: 40px;
+        height: 40px;
+    }
+
+    .main-title {
+        font-size: 26px;
+        line-height: 52px;
+    }
+
+    .main-text {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 285px;
+    }
+
+    .button {
+        width: 200px;
+        height: 50px;
+    }
+
+    .main-content {
+        padding-bottom: 50px;
+    }
+
+    .common-title {
+        font-size: 24px;
+        line-height: 48px;
+    }
+
+    .why-items {
+        margin-top: 10px;
+        gap: 20px;
+    }
+
+    .why-item-title{
+        padding: 15px 0;
+    }
+
+    .products-items {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .products {
+        padding-bottom: 10px;
+    }
+
+    .order{
+        padding-bottom: 0;
+    }
+
+    .footer{
+        padding: 30px 0;
+    }
+}
